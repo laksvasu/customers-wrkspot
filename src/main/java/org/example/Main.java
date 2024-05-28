@@ -36,7 +36,7 @@ public class Main {
 
 
 
-        //Customers in both A and B
+        //Customers in both A and B(Only Unique List)
         List<String> customerNamesInBoth = Stream.concat(customersA.stream(),customersB.stream()).map(customer -> customer.getFirstName() +" " + customer.getLastName()).distinct().collect(Collectors.toList());
                 customersB.stream().map(customer -> customer.getFirstName() +" " + customer.getLastName()).collect(Collectors.toList());
         System.out.println("Unique Customers in Both List A and B : "+ customerNamesInBoth);
