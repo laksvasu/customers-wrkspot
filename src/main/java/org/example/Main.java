@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * The Class Main - To check names containing only in ListA, only in ListB, In both ListA and ListB
+ */
 public class Main {
     public static void main(String[] args) {
 
